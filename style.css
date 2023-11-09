@@ -9,10 +9,10 @@ body {
   margin: 0;
 }
 header, footer {
-  background-color: #fcfaf6;
+  background-color: #fde1df;
   text-align: left;
-  font-family: 'Homemade Apple', sans-serif;
-  color: rgb(111, 139, 216);
+  font-family: 'Montserrat', sans-serif;
+  color: #324e4b
   min-height: 100vh;
   display: flex;
 /*  min-width: 500px; */
@@ -27,23 +27,25 @@ main {
   justify-content: center;
   align-items: stretch;
   align-content: center;
+  background-color: #fde1df;
 }
 
 h1 {
-  font-family: 'Homemade Apple', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
   border-bottom: 1px solid;
   line-height: 1.3;
+  color: #324e4b;
 }
 
 h2 {
-  font-family: 'Homemade Apple', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #6aa5ff;
+  color: #324e4b;
   padding: 10px 0px 10px 10px;
 }
 
@@ -61,7 +63,7 @@ img {
 }
 
 .bio {
-color: #6aa5ff;
+color: #bb6765;
 font-size: 24px;
 font-family: 'Quicksand', sans-serif;
 }
@@ -74,9 +76,9 @@ font-family: 'Quicksand', sans-serif;
 
 .myButton {
   border-radius: 28px;
-  border: 1px solid #ffffff;
+  border: 1px solid #2b2a2a;
   cursor: pointer;
-  color: #ffffff;
+  color: #2b2a2a;
   font-size: 20px;
   padding: 16px 31px;
   text-decoration: none;
@@ -84,7 +86,8 @@ font-family: 'Quicksand', sans-serif;
 }
 
 .myButton:hover {
-    background-color:#e69708;
+    background-color:#e5969c;
+    color: #324e4b
 }
 
 .myButton:active {
@@ -95,6 +98,7 @@ font-family: 'Quicksand', sans-serif;
 .recipe {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
   width: 100%;
+  background-color: #fde1df;
 }
 
 .a {
@@ -110,6 +114,7 @@ font-family: 'Quicksand', sans-serif;
   padding-top: 10px;
   width: 20px;
   height: auto;
+
 }
 
 .mins {
@@ -119,13 +124,14 @@ font-family: 'Quicksand', sans-serif;
   font-weight: 500;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #4a4a4a;
+  background-color: #fde1df;
   position: relative;
   bottom: 5px;
+  color: #324f4d;
 }
 
 .description {
-  font-family: Q'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.29;
@@ -135,6 +141,7 @@ font-family: 'Quicksand', sans-serif;
   padding: 10px 0px 10px 10px;
   border-top: 1px solid #4a4a4a;
 }
+
 
 .logo {
   width: 115px;
