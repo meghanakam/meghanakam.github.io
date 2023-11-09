@@ -9,10 +9,10 @@ body {
   margin: 0;
 }
 header, footer {
-  background-color: #9c87d8;
+  background-color: #fcfaf6;
   text-align: left;
   font-family: 'Sacramento', sans-serif;
-  color: rgb(26, 47, 170);
+  color: rgb(108, 160, 103);
   min-height: 100vh;
   display: flex;
 /*  min-width: 500px; */
