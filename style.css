@@ -11,8 +11,8 @@ body {
 header, footer {
   background-color: #fcfaf6;
   text-align: left;
-  font-family: 'Sacramento', sans-serif;
-  color: rgb(108, 160, 103);
+  font-family: 'Homemade Apple', sans-serif;
+  color: rgb(111, 139, 216);
   min-height: 100vh;
   display: flex;
 /*  min-width: 500px; */
@@ -30,7 +30,7 @@ main {
 }
 
 h1 {
-  font-family: 'Sacramento', sans-serif;
+  font-family: 'Homemade Apple', sans-serif;
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
   border-bottom: 1px solid;
@@ -38,12 +38,12 @@ h1 {
 }
 
 h2 {
-  font-family: 'Sacramento', sans-serif;
+  font-family: 'Homemade Apple', sans-serif;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #6aa5ff;
   padding: 10px 0px 10px 10px;
 }
 
@@ -61,7 +61,7 @@ img {
 }
 
 .bio {
-color: #ffffff;
+color: #6aa5ff;
 font-size: 24px;
 font-family: 'Quicksand', sans-serif;
 }
