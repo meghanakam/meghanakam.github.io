@@ -83,7 +83,7 @@ font-family: 'Quicksand', sans-serif;
   padding: 16px 31px;
   text-decoration: none;
   margin: 1.69em auto;
-  background-color: rgb(195, 214, 185);
+  background-color: #c6ccc9;
 }
 
 .myButton:hover {
@@ -158,6 +158,10 @@ font-family: 'Quicksand', sans-serif;
 
 footer {
   margin-top: 44px;
+}
+
+a {
+  color: #bb6765;
 }
 
 @media all and (max-width:700px) {
