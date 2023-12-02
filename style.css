@@ -158,6 +158,14 @@ font-family: 'Quicksand', sans-serif;
 
 footer {
   margin-top: 44px;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 0.5);
+  color: #4a4a4a;
 }
 
 a {
