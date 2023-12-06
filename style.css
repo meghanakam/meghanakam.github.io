@@ -15,11 +15,9 @@ header, footer {
    text-align: left;
   font-family: 'Quicksand', sans-serif;
   color: #324e4b
-  min-height: 150vh;
+  min-height: 200vh;
   display: flex;
   position: relative;
-  overflow: hidden; /* Hide content that overflows the header */
-  margin: 0; /* Remove margin to take up full width */
 /*  min-width: 500px; */
 }
 
