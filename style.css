@@ -9,10 +9,10 @@ body {
   margin: 0;
 }
 header, footer {
-  background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- text-align: left;
+  background: #ddd6f3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   text-align: left;
   font-family: 'Quicksand', sans-serif;
   color: #324e4b;
   display: flex;
@@ -27,15 +27,14 @@ main {
   display: grid;
   grid-template-columns:repeat(auto-fill, minmax(40%, 1fr) );
   grid-gap: 20px;
-  margin-top: 0px;
+  margin-top: 5px;
   justify-items: center;
   justify-content: center;
   align-items: stretch;
   align-content: center;
   padding: 5px;
-  background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ffecb9;  /* fallback for old browsers */
+
 }
 
 h1 {
@@ -44,7 +43,7 @@ h1 {
   padding-bottom: .67em;
   border-bottom: 1px solid;
   line-height: 1.3;
-  color: #ff7562;
+  color: #291b33;
   text-align: center;
 
 }
@@ -55,7 +54,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: center;
-  color: #ff7562;
+  color: #291b33;
   padding: 5px;
 }
 
@@ -63,7 +62,7 @@ img {
   width: 100%;
   height: 40vh;
   object-fit: cover;
-  border: 8px solid rgb(255, 180, 167);
+  border: 8px solid #291b33;
   box-sizing: border-box;
 }
 
@@ -75,7 +74,7 @@ img {
 }
 
 .bio {
-color: #ebebeb;
+color: #703e6e;
 font-size: 24px;
 font-family: 'Quicksand', sans-serif;
 
@@ -89,19 +88,19 @@ font-family: 'Quicksand', sans-serif;
 
 .myButton {
   border-radius: 28px;
-  border: 1px solid #;
+  border: 1px solid #291b33;
   cursor: pointer;
-  color: #000000;
+  color: #291b33;
   font-size: 20px;
   padding: 16px 31px;
   text-decoration: none;
   margin: 1.69em auto;
-  background-color: rgb(255, 180, 167);
+  background-color: #ffecb9;
 }
 
 .myButton:hover {
-    background-color:#afafaf;
-    color: #333333
+    background-color:#fde08f;
+    color: #291b33
 }
 
 .myButton:active {
@@ -110,9 +109,11 @@ font-family: 'Quicksand', sans-serif;
 }
 
 .projects {
-  box-shadow: 10px 10px 10px 10px #f0f0f0; 
+  box-shadow: 10px 10px 10px 10px #703e6e; 
   width: 100%;
   background-color: #000000;
+  margin-top: 10px;
+  padding: 10px;
 }
 
 .description {
@@ -122,7 +123,7 @@ font-family: 'Quicksand', sans-serif;
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
-  color: #ffffff;
+  color: #291b33;
   padding: 5px;
 }
 
@@ -132,20 +133,19 @@ font-family: 'Quicksand', sans-serif;
   }
 
 footer {
-  margin-top: 2px;
-  height: 100%;
+  margin-top: 5px;
+  height: 90%;
   font-family: 'Quicksand', sans-serif;
   font-size: 14px;
   display: flex;
   align-content: center;
-  padding: 10px 10px;
-  color: rgb(255, 255, 255);
-  color: #ffffff;
+  padding: 5px 5px;
+  color: #81457f;
   justify-content: space-between;
 }
 
 a {
-  color: #ff9b8e;
+  color: #9c3f99;
 }
 
 .icons {
@@ -155,11 +155,11 @@ a {
 
 .icons a {
   margin: 0 8px;
-  color: rgb(255, 255, 255, 0.5); /* You can adjust the 0.5 to, say, 0.7 if your icons are too faint */
+  color: #81457f; /* You can adjust the 0.5 to, say, 0.7 if your icons are too faint */
 }
 
 .icons a:hover {
-  color: rgb(255, 255, 255, 0.8); /* See note above */
+  color: #291b33; /* See note above */
 }
 
 @media all and (max-width:700px) {
