@@ -135,10 +135,25 @@ footer {
   padding: 10px 10px;
   color: rgb(255, 255, 255);
   color: #ffffff;
+  justify-content: space-between;
 }
 
 a {
   color: #ffffff;
+}
+
+.icons {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.icons a {
+  margin: 0 8px;
+  color: rgb(255, 255, 255, 0.5); /* You can adjust the 0.5 to, say, 0.7 if your icons are too faint */
+}
+
+.icons a:hover {
+  color: rgb(255, 255, 255, 0.8); /* See note above */
 }
 
 @media all and (max-width:700px) {
